@@ -60,7 +60,7 @@ while True:
     print(f"3.{BLUE} Email Address {RESET}")
     choice = input(f"{YELLOW}Enter choice ({RESET}1{YELLOW}/{RESET}2{YELLOW}/{RESET}3{YELLOW}): {RESET}")
     if choice == '1':
-        target = input(f"{CYAN}Enter Instagram username:@ ")
+        target = input(f"{CYAN}Enter Instagram username:@")
         break
     elif choice == '2':
         target = input(f"{CYAN}Enter phone number:+91 ")
