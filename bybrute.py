@@ -162,7 +162,7 @@ while True:
 
     sys.stdout.write(f"\r{GREEN}[{RED}*{GREEN}]{CYAN} Trying password {attempts}: {YELLOW}{pwd} {CYAN}| Status: {RED}Failed {CYAN}| Ping: {BLUE}{ping}ms{RESET}   ")
     sys.stdout.flush()
-    time.sleep(random.uniform(0.5, 1.5))
+    time.sleep(random.uniform(1, 9))
 
     if attempts % 100 == 0:
         print(f"\n\n{CYAN}Attempted {attempts} passwords so far.{RESET}")
