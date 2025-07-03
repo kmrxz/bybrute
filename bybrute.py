@@ -119,7 +119,7 @@ for msg in loading_msgs:
     print(f"{RED}[{GREEN}loading{RED}]{YELLOW} {msg}{RESET}")
     time.sleep(random.uniform(1, 6))
 
-print(f"{RED}<{GREEN}<{BLUE}<{YELLOW}\nPLEASE NOTE{RED}>{GREEN}>{BLUE}>{RESET}")
+print(f"{RED}\n<{GREEN}<{BLUE}<{YELLOW}PLEASE NOTE{RED}>{GREEN}>{BLUE}>{RESET}")
 time.sleep(3)
 
 # Ethical notice before brute-force loop
@@ -197,5 +197,5 @@ while True:
             print(RED + "\n[x] Attack aborted by user." + RESET)
             break
 
-# ✅ FIXED LINE: Now outside the loop
+# FIXED LINE: Now outside the loop
 print(f"\n{GREEN}[!] Donate to charity: {YELLOW}https://url-not-found{RESET}\n")
